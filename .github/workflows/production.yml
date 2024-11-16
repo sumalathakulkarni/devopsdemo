@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10.12'
           
       - name: Install dependencies
         run: |
@@ -47,7 +47,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: kaw393939/devops_demo:latest
+          tags: sumalathakulkarni/devopsdemo:latest
 
           # Add other relevant build parameters here
 
